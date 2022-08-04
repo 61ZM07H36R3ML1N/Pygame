@@ -7,6 +7,7 @@ pygame.display.set_caption('Runner')
 clock = pygame.time.Clock()
 
 test_surface = pygame.Surface((100, 200))
+test_surface.fill('Green')
 
 while True:
     for event in pygame.event.get():
